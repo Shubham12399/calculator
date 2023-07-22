@@ -252,7 +252,7 @@ allHoverBtn.forEach((elem) => {
 });
 allBtn.forEach(
 	(elem, index, arr) => {
-		elem.addEventListener('touchstart', () => {
+		elem.addEventListener('click', () => {
 			if (!(elem.className == 'dot')) {
 				if (inputArr[0] == 0 && inputArr[1] !== '+' && elem.textContent !== '+' && inputArr[1] !== '*' && elem.textContent !== '*' && inputArr[1] !== '-' && elem.textContent !== '-' && inputArr[1] !== '/' && elem.textContent !== '/' && inputArr[1] !== '%' && elem.textContent !== '%' && inputArr[1] !== ')' && elem.textContent !== ')' && inputArr[1] !== '.' && elem.textContent !== '.')
 				{
