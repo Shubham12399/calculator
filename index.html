@@ -140,7 +140,7 @@ span{
  .digit{
  	color: rgba(0,0,0,0.7);
  }
-@keyframes popp{ /* pop  is real keyframe*/
+@keyframes pop{ /* pop  is real keyframe*/
 	0%{
 		font-size: .8rem;
 	}
@@ -262,7 +262,7 @@ allBtn.forEach(
 				}
 			}
 			removeEqualSign();
-			typeAnim();
+			// typeAnim();
 			
 			if (elem.textContent == 'π') {
 				inputArr.push('3.14159');
@@ -286,7 +286,7 @@ dlt.onclick = () => {
 	inputArr = [];
 	defaultParameter();
 	maintainResultFont();
-	typeAnim();
+	// typeAnim();
 	result.style.color = 'rgba(0,0,0,0.8)';
 }
 
@@ -305,7 +305,7 @@ function dltOneByOne() {
 backBtn.onclick = () => {
 	dltOneByOne();
 	result.style.color = 'rgba(0,0,0,0.8)';
-	typeAnim();
+	// typeAnim();
 }
 backBtn.addEventListener('long-press', dltOneByOne);
 
